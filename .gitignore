@@ -1,0 +1,16 @@
+# Hugoの出力ディレクトリ（S3にデプロイする生成物）
+/public/
+/resources/_gen/
+
+# キャッシュや一時ファイル
+.hugo_build.lock
+.DS_Store
+
+# 環境変数・機密情報ファイル
+.env
+*.env
+*.pem
+*.key
+
+# テーマやモジュールの不要なローカルキャッシュ
+/.hugo_cache/
