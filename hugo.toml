@@ -16,7 +16,7 @@ languageCode = 'ja-JP'
 
 [params]
   github = 'taigamiura'
-  mainSections = ['post']
+  mainSections = ['posts']
 
   # paperテーマで日付フォーマットを変更したい場合（テーマの仕様に依存します）
   dateFormat = "2006-01-02" 
