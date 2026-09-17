@@ -21,7 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          submodules: true # テーマ（submodule）も一緒に取得する
           fetch-depth: 1
           persist-credentials: false # AWSの認証情報を使うので、GitHubの認証情報は不要
 
